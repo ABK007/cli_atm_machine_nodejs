@@ -1,11 +1,11 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 
 import inquirer from "inquirer";
 
 let myBalance = 10000;
 let myPinCode = 4567;
 
-console.log("My current balance is: " + myBalance)
+console.log("My current balance is: " + myBalance);
 
 
 let enterPin = await inquirer.prompt([
