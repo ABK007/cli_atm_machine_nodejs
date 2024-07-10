@@ -1,5 +1,4 @@
 import inquirer from "inquirer";
-import Choice from "inquirer/lib/objects/choice.js";
 
 let myBalance = 10000;
 let myPinCode = 4567;
